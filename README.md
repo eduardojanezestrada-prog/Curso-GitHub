@@ -1,4 +1,3 @@
-Markdown
 # Proyecto MiAplicacion
 
 > Una aplicación sencilla para gestionar tareas diarias.
