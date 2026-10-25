@@ -5,7 +5,7 @@
  * @param int $iva Porcetaje de IVA
  * @return float Precio final
  */
-function precioConIva(mixed $precio, mixed $iva){
+function precioConIva(float $precio, int $iva){
      return $precio * (1 + $iva / 100);
 }
 
@@ -15,6 +15,6 @@ function precioConIva(mixed $precio, mixed $iva){
  * @param int $num2 Porcetaje de IVA
  * @return int Precio final
  */
-function edu(mixed $num1, mixed $num2){
+function edu(int $num1, int $num2){
      return $num1 + $num2;
 }
