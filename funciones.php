@@ -16,5 +16,5 @@ function precioConIva(float $precio, int $iva){
  * @return int Precio final
  */
 function edu(int $num1, int $num2){
-     return $num1 + $num2
+     return $num1 + $num2;
 }
